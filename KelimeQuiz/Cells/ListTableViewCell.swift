@@ -8,7 +8,9 @@
 import UIKit
 
 class ListTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var labelEnglish: UILabel!
+    @IBOutlet weak var labelTurkish: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

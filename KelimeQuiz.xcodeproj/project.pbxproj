@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6421676127891563006B5A84 /* WordDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6421676027891563006B5A84 /* WordDetailVC.swift */; };
+		6421676327891909006B5A84 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6421676227891909006B5A84 /* Words.swift */; };
 		644E4D87277C3B7300FC3C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E4D86277C3B7300FC3C93 /* AppDelegate.swift */; };
 		644E4D89277C3B7300FC3C93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E4D88277C3B7300FC3C93 /* SceneDelegate.swift */; };
 		644E4D8B277C3B7300FC3C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E4D8A277C3B7300FC3C93 /* ViewController.swift */; };
@@ -16,6 +18,20 @@
 		644E4D9E277C3B7500FC3C93 /* KelimeQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E4D9D277C3B7500FC3C93 /* KelimeQuizTests.swift */; };
 		644E4DA8277C3B7500FC3C93 /* KelimeQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E4DA7277C3B7500FC3C93 /* KelimeQuizUITests.swift */; };
 		644E4DAA277C3B7500FC3C93 /* KelimeQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E4DA9277C3B7500FC3C93 /* KelimeQuizUITestsLaunchTests.swift */; };
+		6471FF842788683C0077F05E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6471FF832788683C0077F05E /* ListTableViewCell.swift */; };
+		64B04458278AEBA7004E7698 /* MemorizedWordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B04457278AEBA7004E7698 /* MemorizedWordsVC.swift */; };
+		64B0445A278AEEBD004E7698 /* MemorizedWordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B04459278AEEBD004E7698 /* MemorizedWordsTableViewCell.swift */; };
+		64B0445C278AF085004E7698 /* MemorizedWordsDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0445B278AF085004E7698 /* MemorizedWordsDao.swift */; };
+		64D50D3227898596003C8505 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D50D312789858F003C8505 /* libsqlite3.tbd */; };
+		64D50D40278985C2003C8505 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D50D36278985C2003C8505 /* FMDatabaseAdditions.m */; };
+		64D50D41278985C2003C8505 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D50D37278985C2003C8505 /* FMDatabasePool.m */; };
+		64D50D42278985C2003C8505 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D50D39278985C2003C8505 /* FMResultSet.m */; };
+		64D50D43278985C2003C8505 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D50D3C278985C2003C8505 /* FMDatabase.m */; };
+		64D50D44278985C2003C8505 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D50D3D278985C2003C8505 /* FMDatabaseQueue.m */; };
+		64D50D46278985E7003C8505 /* sozluk.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 64D50D45278985E7003C8505 /* sozluk.sqlite */; };
+		64D50D4827898642003C8505 /* WordsDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D50D4727898642003C8505 /* WordsDao.swift */; };
+		64E9DDAD278C032600D4F28B /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9DDAC278C032600D4F28B /* QuizVC.swift */; };
+		64E9DDAF278C06DE00D4F28B /* QuizQuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9DDAE278C06DE00D4F28B /* QuizQuestionsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6421676027891563006B5A84 /* WordDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailVC.swift; sourceTree = "<group>"; };
+		6421676227891909006B5A84 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
 		644E4D83277C3B7300FC3C93 /* KelimeQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KelimeQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644E4D86277C3B7300FC3C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		644E4D88277C3B7300FC3C93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,27 @@
 		644E4DA3277C3B7500FC3C93 /* KelimeQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KelimeQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644E4DA7277C3B7500FC3C93 /* KelimeQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeQuizUITests.swift; sourceTree = "<group>"; };
 		644E4DA9277C3B7500FC3C93 /* KelimeQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6471FF832788683C0077F05E /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		64B04457278AEBA7004E7698 /* MemorizedWordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizedWordsVC.swift; sourceTree = "<group>"; };
+		64B04459278AEEBD004E7698 /* MemorizedWordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizedWordsTableViewCell.swift; sourceTree = "<group>"; };
+		64B0445B278AF085004E7698 /* MemorizedWordsDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizedWordsDao.swift; sourceTree = "<group>"; };
+		64D50D312789858F003C8505 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		64D50D34278985C1003C8505 /* KelimeQuiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KelimeQuiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		64D50D35278985C2003C8505 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		64D50D36278985C2003C8505 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		64D50D37278985C2003C8505 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		64D50D38278985C2003C8505 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		64D50D39278985C2003C8505 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		64D50D3A278985C2003C8505 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		64D50D3B278985C2003C8505 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		64D50D3C278985C2003C8505 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		64D50D3D278985C2003C8505 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		64D50D3E278985C2003C8505 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		64D50D3F278985C2003C8505 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		64D50D45278985E7003C8505 /* sozluk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sozluk.sqlite; sourceTree = "<group>"; };
+		64D50D4727898642003C8505 /* WordsDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsDao.swift; sourceTree = "<group>"; };
+		64E9DDAC278C032600D4F28B /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		64E9DDAE278C06DE00D4F28B /* QuizQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D50D3227898596003C8505 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +123,7 @@
 				644E4D9C277C3B7500FC3C93 /* KelimeQuizTests */,
 				644E4DA6277C3B7500FC3C93 /* KelimeQuizUITests */,
 				644E4D84277C3B7300FC3C93 /* Products */,
+				64D50D302789858F003C8505 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +140,19 @@
 		644E4D85277C3B7300FC3C93 /* KelimeQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				64D50D45278985E7003C8505 /* sozluk.sqlite */,
+				644E4D8A277C3B7300FC3C93 /* ViewController.swift */,
+				64B04457278AEBA7004E7698 /* MemorizedWordsVC.swift */,
+				64E9DDAC278C032600D4F28B /* QuizVC.swift */,
+				64E9DDAE278C06DE00D4F28B /* QuizQuestionsVC.swift */,
+				64D50D33278985AC003C8505 /* FMDB */,
+				6471FF7E278867210077F05E /* Cells */,
 				644E4D86277C3B7300FC3C93 /* AppDelegate.swift */,
 				644E4D88277C3B7300FC3C93 /* SceneDelegate.swift */,
-				644E4D8A277C3B7300FC3C93 /* ViewController.swift */,
+				6421676227891909006B5A84 /* Words.swift */,
+				6421676027891563006B5A84 /* WordDetailVC.swift */,
+				64D50D4727898642003C8505 /* WordsDao.swift */,
+				64B0445B278AF085004E7698 /* MemorizedWordsDao.swift */,
 				644E4D8C277C3B7300FC3C93 /* Main.storyboard */,
 				644E4D8F277C3B7500FC3C93 /* Assets.xcassets */,
 				644E4D91277C3B7500FC3C93 /* LaunchScreen.storyboard */,
@@ -125,6 +176,42 @@
 				644E4DA9277C3B7500FC3C93 /* KelimeQuizUITestsLaunchTests.swift */,
 			);
 			path = KelimeQuizUITests;
+			sourceTree = "<group>";
+		};
+		6471FF7E278867210077F05E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6471FF832788683C0077F05E /* ListTableViewCell.swift */,
+				64B04459278AEEBD004E7698 /* MemorizedWordsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		64D50D302789858F003C8505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D50D312789858F003C8505 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D50D33278985AC003C8505 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				64D50D3B278985C2003C8505 /* FMDatabase.h */,
+				64D50D3C278985C2003C8505 /* FMDatabase.m */,
+				64D50D35278985C2003C8505 /* FMDatabaseAdditions.h */,
+				64D50D36278985C2003C8505 /* FMDatabaseAdditions.m */,
+				64D50D38278985C2003C8505 /* FMDatabasePool.h */,
+				64D50D37278985C2003C8505 /* FMDatabasePool.m */,
+				64D50D3E278985C2003C8505 /* FMDatabaseQueue.h */,
+				64D50D3D278985C2003C8505 /* FMDatabaseQueue.m */,
+				64D50D3A278985C2003C8505 /* FMDB.h */,
+				64D50D3F278985C2003C8505 /* FMResultSet.h */,
+				64D50D39278985C2003C8505 /* FMResultSet.m */,
+				64D50D34278985C1003C8505 /* KelimeQuiz-Bridging-Header.h */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +282,7 @@
 				TargetAttributes = {
 					644E4D82277C3B7300FC3C93 = {
 						CreatedOnToolsVersion = 13.2;
+						LastSwiftMigration = 1320;
 					};
 					644E4D98277C3B7500FC3C93 = {
 						CreatedOnToolsVersion = 13.2;
@@ -232,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				644E4D93277C3B7500FC3C93 /* LaunchScreen.storyboard in Resources */,
+				64D50D46278985E7003C8505 /* sozluk.sqlite in Resources */,
 				644E4D90277C3B7500FC3C93 /* Assets.xcassets in Resources */,
 				644E4D8E277C3B7300FC3C93 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +347,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E9DDAF278C06DE00D4F28B /* QuizQuestionsVC.swift in Sources */,
 				644E4D8B277C3B7300FC3C93 /* ViewController.swift in Sources */,
+				6421676127891563006B5A84 /* WordDetailVC.swift in Sources */,
+				6471FF842788683C0077F05E /* ListTableViewCell.swift in Sources */,
+				64D50D43278985C2003C8505 /* FMDatabase.m in Sources */,
+				64B0445A278AEEBD004E7698 /* MemorizedWordsTableViewCell.swift in Sources */,
+				6421676327891909006B5A84 /* Words.swift in Sources */,
 				644E4D87277C3B7300FC3C93 /* AppDelegate.swift in Sources */,
+				64D50D41278985C2003C8505 /* FMDatabasePool.m in Sources */,
+				64D50D42278985C2003C8505 /* FMResultSet.m in Sources */,
+				64E9DDAD278C032600D4F28B /* QuizVC.swift in Sources */,
+				64B04458278AEBA7004E7698 /* MemorizedWordsVC.swift in Sources */,
+				64D50D4827898642003C8505 /* WordsDao.swift in Sources */,
+				64D50D44278985C2003C8505 /* FMDatabaseQueue.m in Sources */,
+				64D50D40278985C2003C8505 /* FMDatabaseAdditions.m in Sources */,
+				64B0445C278AF085004E7698 /* MemorizedWordsDao.swift in Sources */,
 				644E4D89277C3B7300FC3C93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B3H6X5FVJQ;
@@ -455,6 +559,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = info.KelimeQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KelimeQuiz/FMDB/KelimeQuiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B3H6X5FVJQ;
@@ -483,6 +590,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = info.KelimeQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KelimeQuiz/FMDB/KelimeQuiz-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
