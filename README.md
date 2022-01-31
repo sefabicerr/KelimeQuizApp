@@ -1,1 +1,1 @@
-# KelimeQuizApp
+# WordQuizApp
